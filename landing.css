@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px,1fr));
+background-color: whitesmoke;
+
+}
+section{
+    background-color: #1f2937;
+    height:23em;
+    
+}
+.picture img{
+    border-radius: 50%;
+    margin: 20px 0px 0px 60px;
+
+}
+
+div,footer,nav{
+    grid-column: 1/-1;
+
+}
+.text{
+    margin-top: 8%;
+    text-align: center;
+    text-align-last: left;
+    margin-left: 12%;
+    
+}
+.text h1{
+    color: #f9faf8;
+    font-size: 48px;
+    
+   
+}
+.text p{
+    color: #e5e7eb;
+    font-size: 18px;
+
+
+   
+}
+.text button{
+    margin-top: 4%;
+    text-align: center;
+    width: 15%;
+    height:2em;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    margin-left: 10%;
+}
+.section1 h1,p{
+    margin: 0px 20px 0px 50px;
+}
+nav p{
+    color: #f9faf8;
+    font-size: 24px;
+   
+   
+   
+}
+nav{
+
+    color: white;
+    background-color: #1f2937;
+}
+nav ul,p{
+    margin: 20px 130px 0px 50px;
+}
+nav li{
+color: #e5e7eb;
+font-size: 18px;
+float: right;
+padding: 17px;
+list-style: none;
+margin:-50px 0px 0px 0px;
+}
+.division2{
+    height: 20em;
+    text-align: center;
+}
+.information{
+    margin-left: 14%;
+}
+.info{
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding: 2%;
+
+    
+}
+.division3{
+    background-color:#e5e7eb;
+    height: 20em;
+  
+    
+}
+.thor{
+  margin:70px 0px 0px 150px;
+  height: 8em;
+  width: 80%;
+ 
+    
+}
+.thor p{
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+}
+.thor h2{
+    float: right;
+    margin-right:15%;
+}
+.division4{
+    height: 14em;
+}
+.call{
+    background-color:#3882f6;
+    margin:50px 0px 0px 100px;
+    height: 8em;
+    width: 80%;
+    border-radius: 10px;
+
+}
+.call h3{
+   color: white;
+   margin-top: 3%;
+   margin-left: 10%;
+}
+.call p{
+    color: #e5e7eb;
+    margin-left: 10%;
+    margin-top: 3%;
+
+}
+.call button{
+    float: right;
+    width: 15%;
+    height:2em;
+    border:solid white;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    margin-right: 10%;
+    font-size: medium;
+}
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    height: 5em;
+}
